@@ -1,0 +1,607 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*
+-------------
+Top Part
+------------
+*/
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+.top-side{
+    /* box-sizing: border-box; */
+    /* margin: 0;
+    padding:0;  */
+    background-color: #2d25a0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* li,a{
+    
+} */
+
+header{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px 10%;
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* padding: 30px 10%; */
+
+}
+
+header li a{
+    color: #FFFFFF;
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Putting it to use in mobile or tabled mode  */
+
+.fa-bars{
+    color: #FFFFFF;
+    visibility: hidden;
+}
+
+
+.nav_links{
+    list-style: none;
+    /* display:inline-flex; */
+    display: inline-flex;
+    align-items: center;
+    /* margin-right: 40px; */
+    /* justify-content: left; */
+    font-weight: 500;
+    font-size: 16px;
+    color:#FFFFFF;
+
+}
+
+
+
+.nav_links li:hover{
+    background-color:#FFFFFF;
+    /* height: 40px; */
+    /* width: auto; */
+    border-radius: 15px;
+    /* margin-left: 20px; */
+    padding: 5px;
+    transition: 0.5s;
+    margin-right: 10px;
+    
+
+}
+
+.nav_links li a:hover{
+    color: #2d25a0;
+    transition: 0.5s;
+}
+
+#login_button{
+    background-color: #e02c6d;
+    height: 40px;
+    width: 123px;
+    /* margin-right: 62px; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-right: 120px;  
+    margin-top: 30px;  
+    padding-top: 10px;
+}
+
+.fa-sign-in-alt{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+
+.link_text{
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* margin-top: 5px;
+    padding: 20px; */
+    
+}
+
+
+/*
+--------------
+2nd portion : Player Icon,Title,Watch live
+--------------
+*/
+
+.banner_title_live{
+    display: flex;
+    justify-content:space-around;
+
+
+    padding-bottom: 95px;
+
+    /* margin: 0;
+    padding:0;  */
+    background-color: #2d25a0;
+    
+
+    /* flex-wrap: wrap; */
+    flex-direction:row;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+
+.web_title h1{
+    color:#FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.watch_live_button{
+    background-color: #e02c6d;
+    height: 45px;
+    width: 160px ;
+    padding-top: 10px;
+    /* margin-right: 62px; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-right: 120px;  
+    /* margin-top: 30px;   */
+    /* padding-top: 10px; */
+}
+
+
+.fa-arrow-right{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.live_button_text{
+         /* background-color: #E02C6D;
+        color: #FFFFFF;
+        height: 44px;
+        width: 168px;
+        text-decoration: none; */
+    background-color: #E02C6D
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.player_img{
+    margin-top: 10px;
+    margin-right: 60px;
+    height:438px ;
+    width: 556px;
+}
+
+
+/*
+---------------------
+Players Portion 
+---------------------
+*/
+
+.players_info{
+
+    background-color: #FFFFFF;
+    width: 870px;
+    height: 479px;
+    padding: 50px 200px 60px 100px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo-album{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:25px;
+    grid-row-gap: 25px;    
+
+}
+
+.photo-frame{
+    width: 330px;
+    height: 474px;
+    box-shadow: 10px 10px 40px rgb(194, 192, 192);
+    border: 15px solid #FFFFFF;
+    overflow: hidden;
+}
+
+.photo-frame .player:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+
+}
+
+.player img{
+    width: 100%;
+}
+
+
+/*
+------------------
+HIGHLIGHTS SECTION 
+------------------
+*/
+
+.highlights{
+
+    display: flex;
+    justify-content:space-around;
+
+
+    padding-bottom: 95px;
+
+    /* margin: 0;
+    padding:0;  */
+    background-color: #FFFFFF;
+    margin-top: 1700px;
+
+    /* flex-wrap: wrap; */
+    flex-direction:row;
+
+}
+
+.title_and_link{
+    margin-left: 100px;
+
+}
+
+.Copa2021_title h1{
+
+    color:#0a0826;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 0%;
+}
+
+.Copa2021_title p{
+
+    font-size: 16px;
+    color: #9a9a9a;
+    width: 600px;
+
+}
+
+
+.watch_now_button{
+
+    background-color: #e02c6d;
+    height: 40px;
+    width: 150px;
+    /* margin-right: 62px; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-right: 120px;
+    margin-top: 20px;
+    padding: 5px;
+
+}
+.fa-arrow-right{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.watch_now_text{
+
+    background-color: #E02C6D
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.match_img{
+    margin-top: 10px;
+    margin-right: 60px;
+    height:438px ;
+    width: 556px;
+
+}
+
+/*
+----------
+EXTRA PARTS
+----------
+ */
+
+
+.join-community{
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin-left:150px;
+}
+
+.download-app{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /* row-gap: 1fr; */
+    /* display: grid; */
+    /* grid-gap: 1fr; */
+}
+
+.down-txt{
+    text-align: left;
+    
+    justify-content: left;
+}
+#down-apk1{
+    margin-left: 20px;
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+#down-apk2{
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+
+}
+
+/*
+-------------
+ FOOTER PART 
+-------------*/
+
+.footer_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.footer_img{
+    width: 484px;
+    height: 110px;
+    
+
+}
+
+.social_media{
+    margin-left: 200px;
+}
+
+.social_icon{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 30px;
+    /* text-decoration: none; */
+    
+}
+
+span{
+    font-size: 18px;
+    margin-left: 150px;
+    
+}
+
+
+/*
+-----------------
+MEDIA QUERY Mobile
+-----------------
+*/
+
+@media only screen and (max-width:688px){
+
+    .fa-bars{
+        color: #FFFFFF;
+        visibility: visible;
+    }
+
+    .nav_links{
+        visibility: hidden;
+    }
+
+    .top-side{
+        background-color: #2d25a0;
+    }
+    
+    
+    
+/*
+--------------
+2nd portion : Player Icon,Title,Watch live
+--------------
+*/
+
+.banner_title_live{
+    display:block;
+    justify-content:space-around;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-bottom: 70px;
+    background-color: #2d25a0;
+
+}
+
+
+.web_title h1{
+    color:#FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    margin-left: 30px;
+    margin-bottom: 0%;
+}
+
+.watch_live_button{
+    background-color: #e02c6d;
+    height: 45px;
+    width: 160px ;
+    padding-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    margin-right: 120px;  
+
+}
+
+
+.fa-arrow-right{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.live_button_text{
+    background-color: #E02C6D
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.player_img{
+    margin-top: 10px;
+    margin-right: 60px;
+    height:438px ;
+    width: 556px;
+}
+
+    
+/*
+---------------------
+Players Portion 
+---------------------
+*/
+
+.players_info{
+
+    background-color: #FFFFFF;
+    width: auto;
+    height: auto;
+    /* padding-left: 30px; */
+    /* padding-top: 30px; */
+    /* margin-top: 50px; */
+    /* margin-left: 250px; */
+    /* margin: 50px; */
+    /* padding: 50px 200px 60px 180px; */
+    padding: 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+
+}
+
+.photo-album{
+    display:block;
+    margin-top: 60px 0 0 0;
+
+}
+
+.photo-frame{
+    width: 330px;
+    height: auto;
+    box-shadow: 10px 10px 40px rgb(194, 192, 192);
+    border: 15px solid #FFFFFF;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.photo-frame .player:hover{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+
+}
+
+.player img{
+    width: 100%;
+
+}   
+
+.highlights{
+    display:block;
+    margin-top: 0px;
+    
+}
+
+.Copa2021_title h1{
+    font-weight: 600;
+    font-size: 40px;
+    width: 350px;
+
+}
+
+.Copa2021_title p{
+    width: 350px;
+}
+
+.match_img{
+    margin-top: 30px;
+    height:438px ;
+    width: 500px;
+    padding: 10px;
+}
+
+
+.join-community{
+    visibility: hidden;
+    display: none;
+}
+
+
+.download-app{
+    display: inline-block;
+    
+}
+
+
+
+
+.down-img{
+    display: inline;
+    padding: 5px;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+}
+
+.title_and_link{
+    width:100%;
+    margin: 0px;
+    padding: 5px;
+
+
+}
+
+
+.footer_img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
